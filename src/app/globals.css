@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #1e1e1e;
+  --primary-green: #16a34a;
+  --primary-green-dark: #15803d;
+  --secondary-green: #dcfce7;
+  --accent-green: #22c55e;
+  --text-gray: #374151;
+  --text-light: #6b7280;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary-green);
+  --color-primary-dark: var(--primary-green-dark);
+  --color-secondary: var(--secondary-green);
+  --color-accent: var(--accent-green);
+  --color-text-gray: var(--text-gray);
+  --color-text-light: var(--text-light);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+/* Custom utility classes */
+.text-primary {
+  color: var(--primary-green);
+}
+
+.bg-primary {
+  background-color: var(--primary-green);
+}
+
+.bg-secondary {
+  background-color: var(--secondary-green);
+}
+
+.border-primary {
+  border-color: var(--primary-green);
+}
+
+.hover\:bg-primary-dark:hover {
+  background-color: var(--primary-green-dark);
+}
