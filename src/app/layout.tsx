@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Bial Ayub & Co",
-  description: "Professional legal services with 4+ years of experience. Specializing in civil law, criminal law, family law, and more. Contact Advocate Muhammad Essa for expert legal representation.",
+  description: "Professional legal services with 3+ years of experience. Specializing in civil law, criminal law, family law, and more. Contact Advocate Muhammad Essa for expert legal representation.",
 };
 
 export default function RootLayout({
@@ -38,3 +38,4 @@ export default function RootLayout({
     </html>
   );
 }
+
