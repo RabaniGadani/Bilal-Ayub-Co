@@ -27,7 +27,7 @@ const Footer = () => {
           
               {/* Facebook */}
               <a
-                href="https://https://www.facebook.com/mbilal.ayubbhatti"
+                href="https://www.facebook.com/mbilal.ayubbhatti"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-primary transition-colors"
@@ -43,7 +43,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a
-                href="https://https://www.linkedin.com/in/bilal-ayub-917070251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                href="https://www.linkedin.com/in/bilal-ayub-917070251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-primary transition-colors"
@@ -145,5 +145,6 @@ const Footer = () => {
 };
 
 export default Footer;
+
 
 
