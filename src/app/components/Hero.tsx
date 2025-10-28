@@ -24,7 +24,7 @@ export default function Hero() {
                                 Book Consultation
                             </Link>
                             <Link
-                                href="tel:+923001234567"
+                                href="tel:+923052692482 "
                                 className="border-2 border-primary text-primary px-8 py-4 rounded-lg font-semibold hover:bg-primary hover:text-white transition-colors flex items-center justify-center"
                             >
                                 <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
@@ -52,3 +52,4 @@ export default function Hero() {
         </section>
     );
 }
+
