@@ -384,7 +384,7 @@ export default function Services() {
               Book Consultation
             </Link>
             <Link 
-              href="tel:+923001234567" 
+              href="tel:+923052692482" 
               className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-primary transition-colors flex items-center justify-center"
             >
               <span className="mr-2">
@@ -400,3 +400,4 @@ export default function Services() {
     </div>
   );
 }
+
