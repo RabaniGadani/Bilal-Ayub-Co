@@ -276,7 +276,7 @@ export default function Contact() {
                     <div>
                       <div className="text-gray-700 text-base font-bold">WhatsApp</div>
                       <div className="text-gray-600 text-sm">
-                        <a href="https://wa.me/92 305 269 2482:text-green-600 transition">
+                        <a href="https://wa.me/923052692482 text-green-600 transition">
                         +92 305 269 2482
                         </a>
                       </div>
@@ -359,6 +359,7 @@ export default function Contact() {
     </div>
   );
 }
+
 
 
 
