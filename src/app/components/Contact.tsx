@@ -260,7 +260,7 @@ export default function Contact() {
                     <div>
                       <div className="text-gray-700 text-base font-bold">Email</div>
                       <div className="text-gray-600 text-sm">
-                        <a href="mailto:info@essalegal.com" className="hover:text-primary transition">
+                        <a href="mailto:m.bilalayubbhatti@gmail.com" className="hover:text-primary transition">
                       m.bilalayubbhatti@gmail.com
                         </a>
                       </div>
@@ -317,7 +317,7 @@ export default function Contact() {
                     Call our emergency lawyer hotline at any time for fast response.
                   </div>
                   <a
-                    href="tel:+923001234567"
+                    href="tel:+923052692482"
                     className="inline-block bg-white text-primary font-bold py-2 px-5 rounded shadow hover:bg-gray-50 hover:text-primary-dark transition"
                   >
                       +92 305 269 2482
@@ -359,6 +359,7 @@ export default function Contact() {
     </div>
   );
 }
+
 
 
 
