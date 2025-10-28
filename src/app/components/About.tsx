@@ -184,47 +184,53 @@ export default function About() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            {teamMembers.map((member) => (
-              <div
-                key={member.name}
-                className="flex flex-col md:flex-row items-center gap-8 md:gap-12 mb-16 md:mb-0"
-              >
-                <div className="w-full md:w-1/2">
-                  <h3 className="text-3xl font-bold text-gray-900 mb-4">
-                    {member.name}
-                  </h3>
-                  <p className="text-lg text-primary mb-6">{member.title}</p>
-                  {member.bio.map((para, i) => (
-                    <p key={i} className="text-gray-600 mb-6 leading-relaxed">
-                      {para}
-                    </p>
-                  ))}
-                  <div className="flex flex-wrap gap-4">
-                    {member.specialties.map((spec, j) => (
-                      <span
-                        key={j}
-                        className="bg-secondary text-primary px-4 py-2 rounded-full text-sm font-semibold"
-                      >
-                        {spec}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-                <div className="relative w-full md:w-1/2 flex justify-center">
-                  <Image
-                    src={member.image}
-                    alt={member.name}
-                    width={400}
-                    height={500}
-                    className="rounded-lg shadow-2xl object-cover"
-                  />
-                </div>
-              </div>
-            ))}
-          </div>
+
+<div className="grid md:grid-cols-2 gap-12 items-center">
+  {teamMembers.map((member) => (
+    <div
+      key={member.name}
+      className="flex flex-col-reverse md:flex-row items-center gap-8 md:gap-12 mb-16 md:mb-0 text-center md:text-left"
+    >
+      <div className="w-full md:w-1/2">
+        <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+          {member.name}
+        </h3>
+        <p className="text-base md:text-lg text-primary mb-6">{member.title}</p>
+        {member.bio.map((para, i) => (
+          <p key={i} className="text-gray-600 mb-6 leading-relaxed">
+            {para}
+          </p>
+        ))}
+        <div className="flex flex-wrap justify-center md:justify-start gap-4">
+          {member.specialties.map((spec, j) => (
+            <span
+              key={j}
+              className="bg-secondary text-primary px-4 py-2 rounded-full text-sm font-semibold"
+            >
+              {spec}
+            </span>
+          ))}
+        </div>
+      </div>
+
+      <div className="relative w-full md:w-1/2 flex justify-center mb-8 md:mb-0">
+        <Image
+          src={member.image}
+          alt={member.name}
+          width={400}
+          height={500}
+          className="rounded-lg shadow-2xl object-cover"
+        />
+      </div>
+    </div>
+  ))}
+</div>
+          
+    
+          
         </div>
       </section>
     </div>
   );
 }
+
