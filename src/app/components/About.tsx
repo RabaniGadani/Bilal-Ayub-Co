@@ -188,7 +188,7 @@ export default function About() {
   {teamMembers.map((member) => (
     <div
       key={member.name}
-      className="flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-12 mb-12 md:mb-0 w-full overflow-hidden px-4 md:px-0"
+      className="flex flex-col-reverse md:flex-row  md:flex-row items-center md:items-start gap-8 md:gap-12 mb-12 md:mb-0 w-full overflow-hidden px-4 md:px-0"
     >
       {/* Text Section */}
       <div className="w-full md:w-1/2 text-center md:text-left break-words">
@@ -237,5 +237,6 @@ export default function About() {
     </div>
   );
 }
+
 
 
