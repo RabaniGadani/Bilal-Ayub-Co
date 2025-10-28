@@ -26,7 +26,7 @@ export default function Contact() {
   };
 
   // WhatsApp phone number in international format, no spaces or +
-  const WHATSAPP_NUMBER = '923051070920';
+  const WHATSAPP_NUMBER = '+923052692482';
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -359,3 +359,4 @@ export default function Contact() {
     </div>
   );
 }
+
