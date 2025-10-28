@@ -243,7 +243,7 @@ export default function Contact() {
                     <div>
                       <div className="text-gray-700 text-base font-bold">Phone</div>
                       <div className="text-gray-600 text-sm">
-                        <a href="tel:+92 305 2692482" className="hover:text-primary transition">
+                        <a href="tel:+923052692482" className="hover:text-primary transition">
                           +92 305 269 2482
                         </a>
                       </div>
@@ -359,5 +359,6 @@ export default function Contact() {
     </div>
   );
 }
+
 
 
