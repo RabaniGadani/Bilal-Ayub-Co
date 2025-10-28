@@ -184,28 +184,31 @@ export default function About() {
             </p>
           </div>
 
-
-<div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start overflow-hidden">
   {teamMembers.map((member) => (
     <div
       key={member.name}
-      className="flex flex-col-reverse md:flex-row items-center gap-8 md:gap-12 mb-16 md:mb-0 text-center md:text-left"
+      className="flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-12 mb-12 md:mb-0 w-full overflow-hidden px-4 md:px-0"
     >
-      <div className="w-full md:w-1/2">
-        <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+      {/* Text Section */}
+      <div className="w-full md:w-1/2 text-center md:text-left break-words">
+        <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-3">
           {member.name}
         </h3>
-        <p className="text-base md:text-lg text-primary mb-6">{member.title}</p>
+        <p className="text-base md:text-lg text-primary mb-4">{member.title}</p>
         {member.bio.map((para, i) => (
-          <p key={i} className="text-gray-600 mb-6 leading-relaxed">
+          <p
+            key={i}
+            className="text-gray-600 mb-4 leading-relaxed break-words"
+          >
             {para}
           </p>
         ))}
-        <div className="flex flex-wrap justify-center md:justify-start gap-4">
+        <div className="flex flex-wrap justify-center md:justify-start gap-3">
           {member.specialties.map((spec, j) => (
             <span
               key={j}
-              className="bg-secondary text-primary px-4 py-2 rounded-full text-sm font-semibold"
+              className="bg-secondary text-primary px-3 py-1.5 rounded-full text-sm font-semibold"
             >
               {spec}
             </span>
@@ -213,24 +216,26 @@ export default function About() {
         </div>
       </div>
 
-      <div className="relative w-full md:w-1/2 flex justify-center mb-8 md:mb-0">
+      {/* Image Section */}
+      <div className="relative w-full md:w-1/2 flex justify-center overflow-hidden">
         <Image
           src={member.image}
           alt={member.name}
           width={400}
           height={500}
-          className="rounded-lg shadow-2xl object-cover"
+          className="rounded-lg shadow-2xl object-cover w-full max-w-xs md:max-w-none"
         />
       </div>
     </div>
   ))}
 </div>
-          
-    
+ 
+
           
         </div>
       </section>
     </div>
   );
 }
+
 
