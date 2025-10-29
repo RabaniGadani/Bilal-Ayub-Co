@@ -46,7 +46,28 @@ const teamMembers = [
       "Case Analysis",
       "Client Counseling"
     ]
-  }
+  },
+  {
+    name: "Mr. Muhammad Essa",
+    title: "Office Automation Specialist & Full Stack Web Developer",
+    image: "/images/muhammad-essa.png",
+    bio: [
+      "Mr. Muhammad Essa is an experienced Office Automation Specialist and Full Stack Web Developer with a strong background in modern web application development. He focuses on building intelligent, automated, and efficient digital systems for institutions and organizations. Skilled in both frontend and backend development, he uses technologies like Next.js, Tailwind CSS, TypeScript, and FastAPI to create fast, secure, and scalable web platforms. He also integrates databases, headless CMS, AI tools, and payment systems to deliver innovative digital solutions."
+    ],
+    specialties: [
+      "Office Automation Systems",
+      "Frontend & Backend Development",
+      "Next.js, React & Tailwind CSS",
+      "TypeScript & FastAPI",
+      "Database Design & Management",
+      "Stripe Payment Integration",
+      "Headless CMS (Sanity, Contentful, Strapi, Shopify)",
+      "OpenAI Agents SDK & Agent Builder",
+      "Docker & Deployment Automation",
+      "Vercel & Netlify Deployment Platforms",
+      "Digital Transformation & Workflow Optimization"
+    ]
+  },
 ];
 
 export default function About() {
@@ -237,6 +258,7 @@ export default function About() {
     </div>
   );
 }
+
 
 
 
