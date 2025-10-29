@@ -35,7 +35,7 @@ const teamMembers = [
   {
     name: "Mr. Abdul Rehman Qureshi",
     title: "Senior Legal Counsel",
-    image: "/images/team-qureshi.png",
+    image: "/Screenshot_20251029-130555.jpg",
     bio: [
       "Holding a Law Degree from the University of London and possessing over three years of professional experience, Mr. Qureshi is a vital part of the firm’s litigation and advisory team.",
       "His analytical skills, attention to detail, and client-oriented approach ensure effective and result-driven legal solutions."
@@ -237,6 +237,7 @@ export default function About() {
     </div>
   );
 }
+
 
 
 
